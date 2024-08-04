@@ -1,0 +1,187 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  /* Header e Navbar */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .collapse .navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #ddd;
+  }
+  
+  /* Conteúdo principal */
+  .cintaine {
+    padding: 20px;
+  }
+  
+  /* Mensagens de flash */
+  .alert {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .alert-success {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .alert-danger {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-item {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  }
+  /* home cima */
+
+  
+h1 {
+    color: #333;
+  }
+  
+  /* Estilos para a tabela */
+  .table-bord {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-bord th,
+  .table-bord td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table-bord th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Estilos para os botões */
+  .btn-success,
+  .btn-primary,
+  .btn-danger {
+    display: inline-block;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    
+  }
+  
+  .btn-success {
+    background-color: #4CAF50;
+  }
+  
+  .btn-primary {
+    background-color: #008CBA;
+  }
+  
+  .btn-danger {
+    background-color: #f44336;
+  }
+  
+  /* Estilos para o link de novo cadastro */
+  .text-right {
+    text-align: right;
+  }
+  
+  /* Estilos responsivos */
+  @media screen and (max-width: 768px) {
+    .table-bord {
+      font-size: 14px;
+    }
+  }
+
+  .col-5.mx-auto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  hr {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    float: right;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos responsivos */
+  @media screen and (max-width: 768px) {
+    .col-5.mx-auto {
+      width: 90%;
+    }
+  }
